@@ -1,0 +1,7 @@
+applications:
+- name: config-server-nielei
+  path: target/config-server-0.1.0-SNAPSHOT.jar
+  instances: 1
+  memory: 800M
+  env:
+    gitrepo: https://github.com/nieberga/cnj-config
